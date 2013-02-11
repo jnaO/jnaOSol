@@ -213,7 +213,7 @@
       <key>settings</key>
       <dict>
         <key>foreground</key>
-        <string>#B7445A</string>
+        <string>#c95f5f</string>
       </dict>
     </dict>
 
@@ -1384,7 +1384,7 @@
       <key>settings</key>
       <dict>
         <key>foreground</key>
-        <string>#269186</string>
+        <string>#c46b1d</string>
       </dict>
     </dict>
 
@@ -1496,7 +1496,7 @@
         <key>fontStyle</key>
         <string>Bold</string>
         <key>foreground</key>
-        <string>#B5A80F</string>
+        <string>#c46b1d</string>
       </dict>
     </dict>
 
@@ -1520,7 +1520,7 @@
       <key>settings</key>
       <dict>
         <key>foreground</key>
-        <string>#B5A80F</string>
+        <string>#c46b1d</string>
       </dict>
     </dict>
 
