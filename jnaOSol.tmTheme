@@ -213,7 +213,7 @@
       <key>settings</key>
       <dict>
         <key>foreground</key>
-        <string>#c95f5f</string>
+        <string>#c44f5d</string>
       </dict>
     </dict>
 
@@ -413,7 +413,7 @@
         <key>fontStyle</key>
         <string></string>
         <key>foreground</key>
-        <string>#c46b1d</string>
+        <string>#aa6b13</string>
       </dict>
     </dict>
 
@@ -460,7 +460,7 @@
         <key>fontStyle</key>
         <string></string>
         <key>foreground</key>
-        <string>#c95f5f</string>
+        <string>#c44f5d</string>
       </dict>
     </dict>
 
@@ -554,7 +554,7 @@
         <key>fontStyle</key>
         <string></string>
         <key>foreground</key>
-        <string>#c46b1d</string>
+        <string>#aa6b13</string>
       </dict>
     </dict>
 
@@ -600,7 +600,7 @@
         <key>fontStyle</key>
         <string></string>
         <key>foreground</key>
-        <string>#c46b1d</string>
+        <string>#aa6b13</string>
       </dict>
     </dict>
 
@@ -1384,7 +1384,7 @@
       <key>settings</key>
       <dict>
         <key>foreground</key>
-        <string>#c46b1d</string>
+        <string>#aa6b13</string>
       </dict>
     </dict>
 
@@ -1496,7 +1496,7 @@
         <key>fontStyle</key>
         <string>Bold</string>
         <key>foreground</key>
-        <string>#c46b1d</string>
+        <string>#aa6b13</string>
       </dict>
     </dict>
 
@@ -1520,7 +1520,7 @@
       <key>settings</key>
       <dict>
         <key>foreground</key>
-        <string>#c46b1d</string>
+        <string>#aa6b13</string>
       </dict>
     </dict>
 
@@ -2232,6 +2232,142 @@
         <string>#DC322F</string>
       </dict>
     </dict>
+
+
+
+
+
+
+
+    <!-- SublimeLinter: -->
+    <dict>
+      <key>name</key>
+      <string>SublimeLinter Annotations</string>
+      <key>scope</key>
+      <string>sublimelinter.annotations</string>
+      <key>settings</key>
+      <dict>
+        <key>background</key>
+        <string>#FFFFAA</string>
+        <key>foreground</key>
+        <string>#FFFFFF</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>SublimeLinter Error Outline</string>
+      <key>scope</key>
+      <string>sublimelinter.outline.illegal</string>
+      <key>settings</key>
+      <dict>
+        <key>background</key>
+        <string>#c44f5d</string>
+        <key>foreground</key>
+        <string>#FFFFFF</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>SublimeLinter Error Underline</string>
+      <key>scope</key>
+      <string>sublimelinter.underline.illegal</string>
+      <key>settings</key>
+      <dict>
+        <key>background</key>
+        <string>#c44f5d</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>SublimeLinter Warning Outline</string>
+      <key>scope</key>
+      <string>sublimelinter.outline.warning</string>
+      <key>settings</key>
+      <dict>
+        <key>background</key>
+        <string>#dea500</string>
+        <key>foreground</key>
+        <string>#FFFFFF</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>SublimeLinter Warning Underline</string>
+      <key>scope</key>
+      <string>sublimelinter.underline.warning</string>
+      <key>settings</key>
+      <dict>
+        <key>background</key>
+        <string>#c44f5d</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>SublimeLinter Violation Outline</string>
+      <key>scope</key>
+      <string>sublimelinter.outline.violation</string>
+      <key>settings</key>
+      <dict>
+        <key>background</key>
+        <string>#ffffff33</string>
+        <key>foreground</key>
+        <string>#FFFFFF</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>SublimeLinter Violation Underline</string>
+      <key>scope</key>
+      <string>sublimelinter.underline.violation</string>
+      <key>settings</key>
+      <dict>
+        <key>background</key>
+        <string>#c44f5d</string>
+      </dict>
+    </dict>
+    <!-- End sublime linter -->    <!-- End sublime linter -->
+
+
+    <!-- GitGutter: -->
+    <dict>
+      <key>name</key>
+      <string>diff.deleted</string>
+      <key>scope</key>
+      <string>markup.deleted</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#c44f5d</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>diff.inserted</string>
+      <key>scope</key>
+      <string>markup.inserted</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#7f9401</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>diff.changed</string>
+      <key>scope</key>
+      <string>markup.changed</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#aa6b13</string>
+      </dict>
+    </dict>
+    <!-- :GitGutter -->
+
+
+
+
+
   </array>
   <key>uuid</key>
   <string>A4299D9B-1DE5-4BC4-87F6-A757E71B1597</string>
