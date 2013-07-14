@@ -2368,6 +2368,59 @@
 
 
 
+
+    <!-- Mustache: -->
+    <!-- Comment -->
+    <dict>
+      <key>name</key>
+      <string>comment.block.mustache</string>
+      <key>scope</key>
+      <string>comment.block.mustache</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <!-- comment gray -->
+        <string>#586E75</string>
+      </dict>
+    </dict>
+
+    <!-- Open and closing braces -->
+    <dict>
+      <key>name</key>
+      <string>entity.name.tag.mustache</string>
+      <key>scope</key>
+      <string>entity.name.tag.mustache</string>
+      <key>settings</key>
+      <dict>
+        <key>fontStyle</key>
+        <string>lighter</string>
+        <key>foreground</key>
+        <!-- gray -->
+        <string>#999</string>
+      </dict>
+    </dict>
+
+    <!-- String inside braces -->
+    <dict>
+      <key>name</key>
+      <string>source.mustache.embedded.html</string>
+      <key>scope</key>
+      <string>source.mustache.embedded.html</string>
+      <key>settings</key>
+      <dict>
+        <key>fontStyle</key>
+        <string>lighter</string>
+        <key>foreground</key>
+        <!-- orange -->
+        <string>#7f9401</string>
+      </dict>
+    </dict>
+    <!-- :Mustache -->
+
+
+
+
+
   </array>
   <key>uuid</key>
   <string>A4299D9B-1DE5-4BC4-87F6-A757E71B1597</string>
