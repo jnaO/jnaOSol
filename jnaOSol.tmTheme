@@ -554,7 +554,7 @@
     <!--        _\///\\\\\\\\\\\/___\//\\\\\\\\/\\__/\\\\\\\\\\__/\\\\\\\\\\_             -->
     <!--         ___\///////////______\////////\//__\//////////__\//////////__            -->
 
-    <!-- @ -->
+    <!-- @ ## unresp -->
     <dict>
       <key>name</key>
       <string>SASS: @</string>
@@ -565,27 +565,27 @@
         <key>fontStyle</key>
         <string></string>
         <key>foreground</key>
-        <string>#AA6B13</string>
+        <string>#ff0000</string>
       </dict>
     </dict>
 
     <!-- "String" -->
     <dict>
       <key>name</key>
-      <string>SASS: double quoted string</string>
+      <string>SASS: double and single quoted string</string>
       <key>scope</key>
-      <string>string.quoted.double.sass</string>
+      <string>string.quoted.double.sass, string.quoted.single.sass</string>
       <key>settings</key>
       <dict>
         <key>fontStyle</key>
         <string></string>
         <key>foreground</key>
-        <string>#A57800</string>
+        <string>#6AA253</string>
       </dict>
     </dict>
 
 
-    <!-- ´\\´ -->
+    <!-- ´\\´ ## unresp -->
     <dict>
       <key>name</key>
       <string>SASS: \\</string>
@@ -628,7 +628,7 @@
         <key>fontStyle</key>
         <string></string>
         <key>foreground</key>
-        <string>#748B00</string>
+        <string>#CFB93C</string>
       </dict>
     </dict>
 
@@ -648,24 +648,54 @@
       </dict>
     </dict>
 
-
-    <!-- ´#ff0000, 54%, 32px´ -->
+    <!-- ´:pseudo´ -->
     <dict>
       <key>name</key>
-      <string>SASS: HEX value and numbers</string>
+      <string>SASS: pseudo-class</string>
       <key>scope</key>
-      <string>constant.other.rgb-value.sass, constant.numeric.sass, constant.other.unit.sass</string>
+      <string>entity.other.attribute-name.tag.pseudo-class, entity.other.attribute-name.tag.pseudo-element</string>
       <key>settings</key>
       <dict>
         <key>fontStyle</key>
         <string></string>
         <key>foreground</key>
-        <string>#269186</string>
+        <string>#FFC999</string>
       </dict>
     </dict>
 
 
-    <!-- ´$var´ -->
+    <!-- ´#ff0000´ -->
+    <dict>
+      <key>name</key>
+      <string>SASS: HEX value and numbers</string>
+      <key>scope</key>
+      <string>constant.other.rgb-value.sass</string>
+      <key>settings</key>
+      <dict>
+        <key>fontStyle</key>
+        <string></string>
+        <key>foreground</key>
+        <string>#748B00</string>
+      </dict>
+    </dict>
+
+    <!-- ´[54][%], [32][px]´ -->
+    <dict>
+      <key>name</key>
+      <string>SASS: HEX value and numbers</string>
+      <key>scope</key>
+      <string>constant.numeric.sass, constant.other.unit.sass</string>
+      <key>settings</key>
+      <dict>
+        <key>fontStyle</key>
+        <string></string>
+        <key>foreground</key>
+        <string>#748B00</string>
+      </dict>
+    </dict>
+
+
+    <!-- ´$var´ ## unresp -->
     <dict>
       <key>name</key>
       <string>SASS: $variable</string>
@@ -695,37 +725,37 @@
       </dict>
     </dict>
 
-    <!-- ´constant strings (top, true, auto) ´ -->
+    <!-- ´constant strings (top, true, auto)´ -->
     <dict>
       <key>name</key>
       <string>SASS: constant strings</string>
       <key>scope</key>
-      <string>constant.string.sass, support.constant.property-value.sass, variable.parameter.url</string>
+      <string>support.constant.property-value.sass</string>
       <key>settings</key>
       <dict>
         <key>fontStyle</key>
         <string></string>
         <key>foreground</key>
-        <string>#AA6B13</string>
+        <string>#aa6b13</string>
       </dict>
     </dict>
 
-    <!-- ´:pseudo´ -->
+    <!-- ´( left|right )´ -->
     <dict>
       <key>name</key>
-      <string>SASS: pseudo-class</string>
+      <string>SASS: element</string>
       <key>scope</key>
-      <string>entity.other.attribute-name.tag.pseudo-class, entity.other.attribute-name.tag.pseudo-element</string>
+      <string>constant.string.sass</string>
       <key>settings</key>
       <dict>
         <key>fontStyle</key>
         <string></string>
         <key>foreground</key>
-        <string>#FFC999</string>
+        <string>#aa6b13</string>
       </dict>
     </dict>
 
-    <!-- ´: property´ -->
+    <!-- ´: property´ ## unresp -->
     <dict>
       <key>name</key>
       <string>SASS: property</string>
@@ -746,13 +776,13 @@
       <key>name</key>
       <string>SASS: property</string>
       <key>scope</key>
-      <string>support.constant.font-name.sass, support.constant.property-value.sass</string>
+      <string>support.constant.font-name.sass</string>
       <key>settings</key>
       <dict>
         <key>fontStyle</key>
         <string></string>
         <key>foreground</key>
-        <string>#AA6B13</string>
+        <string>#E06900</string>
       </dict>
     </dict>
 
