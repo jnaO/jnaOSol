@@ -559,13 +559,28 @@
       <key>name</key>
       <string>SASS: @</string>
       <key>scope</key>
+      <string>support.constant.function-name.sass</string>
+      <key>settings</key>
+      <dict>
+        <key>fontStyle</key>
+        <string></string>
+        <key>foreground</key>
+        <string>#CFB93C</string>
+      </dict>
+    </dict>
+
+    <!-- @ -->
+    <dict>
+      <key>name</key>
+      <string>SASS: @</string>
+      <key>scope</key>
       <string>keyword.control.at-rule.sass</string>
       <key>settings</key>
       <dict>
         <key>fontStyle</key>
         <string></string>
         <key>foreground</key>
-        <string>#ff0000</string>
+        <string>#E06900</string>
       </dict>
     </dict>
 
@@ -590,7 +605,7 @@
       <key>name</key>
       <string>SASS: \\</string>
       <key>scope</key>
-      <string>constant.character.escaped.sass</string>
+      <string>keyword.control.double-backslash.sass</string>
       <key>settings</key>
       <dict>
         <key>fontStyle</key>
@@ -782,7 +797,7 @@
         <key>fontStyle</key>
         <string></string>
         <key>foreground</key>
-        <string>#E06900</string>
+        <string>#aa6b13</string>
       </dict>
     </dict>
 
