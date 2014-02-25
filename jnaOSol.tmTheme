@@ -559,7 +559,7 @@
       <key>name</key>
       <string>SASS: @</string>
       <key>scope</key>
-      <string>support.constant.function-name.sass</string>
+      <string>support.constant.function-name.scss,support.constant.function-name.sass</string>
       <key>settings</key>
       <dict>
         <key>fontStyle</key>
@@ -574,7 +574,7 @@
       <key>name</key>
       <string>SASS: @</string>
       <key>scope</key>
-      <string>keyword.control.at-rule.sass</string>
+      <string>keyword.control.at-rule.scss,keyword.control.at-rule.sass</string>
       <key>settings</key>
       <dict>
         <key>fontStyle</key>
@@ -589,7 +589,7 @@
       <key>name</key>
       <string>SASS: double and single quoted string</string>
       <key>scope</key>
-      <string>string.quoted.double.sass, string.quoted.single.sass</string>
+      <string>string.quoted.double.scss, string.quoted.single.scss, string.quoted.double.sass, string.quoted.single.sass</string>
       <key>settings</key>
       <dict>
         <key>fontStyle</key>
@@ -605,7 +605,7 @@
       <key>name</key>
       <string>SASS: \\</string>
       <key>scope</key>
-      <string>keyword.control.double-backslash.sass</string>
+      <string>keyword.control.double-backslash.scss, keyword.control.double-backslash.sass</string>
       <key>settings</key>
       <dict>
         <key>fontStyle</key>
@@ -621,7 +621,7 @@
       <key>name</key>
       <string>SASS: #id</string>
       <key>scope</key>
-      <string>entity.other.attribute-name.id.sass</string>
+      <string>entity.other.attribute-name.id.scss, entity.other.attribute-name.id.sass</string>
       <key>settings</key>
       <dict>
         <key>fontStyle</key>
@@ -653,7 +653,7 @@
       <key>name</key>
       <string>SASS: .class</string>
       <key>scope</key>
-      <string>entity.other.attribute-name.class.sass</string>
+      <string>entity.other.attribute-name.class.scss, entity.other.attribute-name.class.sass</string>
       <key>settings</key>
       <dict>
         <key>fontStyle</key>
@@ -684,7 +684,7 @@
       <key>name</key>
       <string>SASS: HEX value and numbers</string>
       <key>scope</key>
-      <string>constant.other.rgb-value.sass</string>
+      <string>constant.other.rgb-value.scss, constant.other.rgb-value.sass</string>
       <key>settings</key>
       <dict>
         <key>fontStyle</key>
@@ -699,7 +699,7 @@
       <key>name</key>
       <string>SASS: HEX value and numbers</string>
       <key>scope</key>
-      <string>constant.numeric.sass, constant.other.unit.sass</string>
+      <string>constant.numeric.scss, constant.other.unit.scss, constant.numeric.sass, constant.other.unit.sass</string>
       <key>settings</key>
       <dict>
         <key>fontStyle</key>
@@ -715,7 +715,7 @@
       <key>name</key>
       <string>SASS: $variable</string>
       <key>scope</key>
-      <string>variable.parameter.sass</string>
+      <string>variable.parameter.scss, variable.parameter.sass</string>
       <key>settings</key>
       <dict>
         <key>fontStyle</key>
@@ -730,7 +730,7 @@
       <key>name</key>
       <string>SASS: comments</string>
       <key>scope</key>
-      <string>comment.block.sass, comment.line.double-slash.sass</string>
+      <string>comment.block.scss, comment.line.double-slash.scss, comment.block.sass, comment.line.double-slash.sass</string>
       <key>settings</key>
       <dict>
         <key>fontStyle</key>
@@ -745,7 +745,7 @@
       <key>name</key>
       <string>SASS: constant strings</string>
       <key>scope</key>
-      <string>support.constant.property-value.sass</string>
+      <string>support.constant.property-value.scss, support.constant.property-value.sass</string>
       <key>settings</key>
       <dict>
         <key>fontStyle</key>
@@ -760,7 +760,7 @@
       <key>name</key>
       <string>SASS: element</string>
       <key>scope</key>
-      <string>constant.string.sass</string>
+      <string>constant.string.scss, constant.string.sass</string>
       <key>settings</key>
       <dict>
         <key>fontStyle</key>
@@ -775,7 +775,7 @@
       <key>name</key>
       <string>SASS: property</string>
       <key>scope</key>
-      <string>support.type.property-name.sass</string>
+      <string>support.type.property-name.scss, support.type.property-name.sass</string>
       <key>settings</key>
       <dict>
         <key>fontStyle</key>
@@ -791,7 +791,7 @@
       <key>name</key>
       <string>SASS: property</string>
       <key>scope</key>
-      <string>support.constant.font-name.sass</string>
+      <string>support.constant.font-name.scss, support.constant.font-name.sass</string>
       <key>settings</key>
       <dict>
         <key>fontStyle</key>
